@@ -15,3 +15,18 @@
 <log><type>WARN</type><message> Trade amount on line 3 > 100000: '100001'</message></log> 
 <log><type>INFO</type><message>  Connecting to Database</message></log> 
 <log><type>INFO</type><message>  2 trades processed</message></log> 
+<log><type>INFO</type><message>  Connecting to Database</message></log> 
+<log><type>INFO</type><message>  0 trades processed</message></log> 
+<log><type>INFO</type><message>  Connecting to Database</message></log> 
+<log><type>INFO</type><message>  4 trades processed</message></log> 
+<log><type>WARN</type><message> Line 1 malformed. Only 1 field(s) found.</message></log> 
+<log><type>WARN</type><message> Line 1 malformed. Only 4 field(s) found.</message></log> 
+<log><type>WARN</type><message> Trade amount on line 1 not a valid integer: 'Ten'</message></log> 
+<log><type>WARN</type><message> Trade price on line 1 not a valid decimal: '1;2'</message></log> 
+<log><type>INFO</type><message>  Connecting to Database</message></log> 
+<log><type>INFO</type><message>  0 trades processed</message></log> 
+<log><type>WARN</type><message> Trade amount on line 1 < 1000: '-1000'</message></log> 
+<log><type>WARN</type><message> Trade amount on line 1 < 1000: '999'</message></log> 
+<log><type>WARN</type><message> Trade amount on line 3 > 100000: '100001'</message></log> 
+<log><type>INFO</type><message>  Connecting to Database</message></log> 
+<log><type>INFO</type><message>  2 trades processed</message></log> 

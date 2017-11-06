@@ -32,11 +32,14 @@ namespace SingleResponsibilityPrinciple.Tests
         public void NoTestFile()
         {
             //Arrange
-            var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("");
+            string url = "";
+
             var tradeProcessor = new TradeProcessor();
 
             //Act
-            tradeProcessor.ProcessTrades(tradeStream);
+
+                        
+            tradeProcessor.ProcessTrades(url);
 
             //Assert
 
@@ -47,11 +50,14 @@ namespace SingleResponsibilityPrinciple.Tests
         public void EmptyTestFile()
         {
             //Arrange
-            var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.tradesEmpty.txt");
+
+            string url = "http://faculty.css.edu/tgibbons/tradesempty.txt";
             var tradeProcessor = new TradeProcessor();
 
             //Act
-            tradeProcessor.ProcessTrades(tradeStream);
+
+
+            tradeProcessor.ProcessTrades(url);
 
             //Assert
 
@@ -60,11 +66,13 @@ namespace SingleResponsibilityPrinciple.Tests
         public void Test4tradesInFile()
         {
             // Arrange
-            var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.trades4.txt");
+            //var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.trades4.txt");
+            string url = "http://faculty.css.edu/tgibbons/trades4.txt";
             var tradeProcessor = new TradeProcessor();
             int startCount = CountDbRecords();
             // Act
-            tradeProcessor.ProcessTrades(tradeStream);
+            //tradeProcessor.ProcessTrades(tradeStream);
+            tradeProcessor.ProcessTrades(url);
             int endCount = CountDbRecords();
             // Assert
             Assert.AreEqual(endCount - startCount, 4);
@@ -74,11 +82,13 @@ namespace SingleResponsibilityPrinciple.Tests
         public void TestWronglyFormattedTrades()
         {
             // Arrange
-            var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.tradesBadFormats.txt");
+            //var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.tradesBadFormats.txt");
+            string url = "http://faculty.css.edu/tgibbons/tradesBadFormats.txt";
             var tradeProcessor = new TradeProcessor();
             int startCount = CountDbRecords();
             // Act
-            tradeProcessor.ProcessTrades(tradeStream);
+            //tradeProcessor.ProcessTrades(tradeStream);
+            tradeProcessor.ProcessTrades(url);
             int endCount = CountDbRecords();
             // Assert
             Assert.AreEqual(endCount - startCount, 0);
@@ -89,11 +99,13 @@ namespace SingleResponsibilityPrinciple.Tests
         public void TestTradeAmountBoounds()
         {
             // Arrange
-            var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.tradesBounds.txt");
+            //var tradeStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SingleResponsibilityPrincipleTests.tradesBounds.txt");
+            string url = "http://faculty.css.edu/tgibbons/tradesBounds.txt";
             var tradeProcessor = new TradeProcessor();
             int startCount = CountDbRecords();
             // Act
-            tradeProcessor.ProcessTrades(tradeStream);
+            //tradeProcessor.ProcessTrades(tradeStream);
+            tradeProcessor.ProcessTrades(url);
             int endCount = CountDbRecords();
             // Assert
             Assert.AreEqual(endCount - startCount, 2);
