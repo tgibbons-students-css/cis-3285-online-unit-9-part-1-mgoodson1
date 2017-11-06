@@ -8,3 +8,12 @@ C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleRespo
 C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleResponsibilityPrincipleTests\obj\Debug\SingleResponsibilityPrincipleTests.csproj.CoreCompileInputs.cache
 C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleResponsibilityPrincipleTests\obj\Debug\SingleResponsibilityPrincipleTests.dll
 C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleResponsibilityPrincipleTests\obj\Debug\SingleResponsibilityPrincipleTests.pdb
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\bin\Debug\SingleResponsibilityPrincipleTests.dll
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\bin\Debug\SingleResponsibilityPrincipleTests.pdb
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\bin\Debug\SingleResponsibilityPrinciple.exe
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\bin\Debug\SingleResponsibilityPrinciple.pdb
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\obj\Debug\SingleResponsibilityPrincipleTests.csprojResolveAssemblyReference.cache
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\obj\Debug\SingleResponsibilityPrincipleTests.dll
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrincipleTests\obj\Debug\SingleResponsibilityPrincipleTests.pdb

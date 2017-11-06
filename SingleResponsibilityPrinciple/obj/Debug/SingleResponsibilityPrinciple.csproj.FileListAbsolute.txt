@@ -7,3 +7,6 @@ C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleRespo
 C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.exe.config
 C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.exe
 C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.pdb
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.exe
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.pdb
+C:\Users\mgoodson\Source\Repos\cis-3285-online-unit-9-part-1-mgoodson1\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.csprojResolveAssemblyReference.cache
